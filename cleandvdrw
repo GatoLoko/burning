@@ -1,0 +1,4 @@
+#!/bin/sh
+source burning.cfg
+sudo dvd+rw-format -blank $dvd_burner
+#sudo dvd+rw-format -force $dvd_burner
