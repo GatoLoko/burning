@@ -1,0 +1,3 @@
+#!/bin/sh
+source burning.cfg
+sudo cdrecord dev=$cd_burner speed=16 fs=64M -v -dao cuefile=$1

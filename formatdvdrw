@@ -1,0 +1,6 @@
+#!/usr/bin/env sh
+source burning.cfg
+sudo dvd+rw-format -f $dvd_burner
+mkudffs --media-type=dvd /dev/pktcdvd/pktcdvd0
+mount -t udf -o rw,noatime /dev/pktcdvd/pktcdvd0 /media/dvdrw
+

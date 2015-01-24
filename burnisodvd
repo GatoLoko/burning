@@ -1,0 +1,3 @@
+#!/bin/sh
+source burning.cfg
+sudo growisofs -dvd-compat -Z $dvd_burner=$1

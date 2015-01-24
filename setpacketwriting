@@ -1,0 +1,2 @@
+#!/bin/sh
+sudo pktsetup /dev/pktcdvd/0 $1

@@ -1,0 +1,3 @@
+#!/bin/sh
+source burning.cfg
+sudo wodim -v fs=64M -dev=$cd_burner $1
